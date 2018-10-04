@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "scprc_2017_18_pop_res.csv",
+            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         },
         {
@@ -33,7 +33,7 @@
     ],
     "nodes": [
         {
-            "name": "scprc_2017_18_pop_res.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
             "assigned_to": "parshva11shah",
@@ -48,6 +48,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:32:36",
+    "updated_at": "2018-10-04 17:34:35",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
