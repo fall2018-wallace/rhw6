@@ -28,7 +28,7 @@
         {
             "ports": [
                 {
-                    "output": "df",
+                    "output": "h",
                     "type": "png"
                 }
             ],
@@ -55,6 +55,6 @@
             "name": "plot305.png"
         }
     ],
-    "updated_at": "2018-10-04 17:39:11",
+    "updated_at": "2018-10-04 17:40:21",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
