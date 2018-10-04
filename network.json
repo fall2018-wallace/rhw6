@@ -13,16 +13,6 @@
             ],
             "source": "scprc_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
@@ -30,12 +20,18 @@
             "name": "scprc_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "parshva11shah",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 16:45:28",
+    "updated_at": "2018-10-04 17:09:51",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
