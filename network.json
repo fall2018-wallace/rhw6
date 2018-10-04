@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "plot305.png"
         }
     ],
     "nodes": [
@@ -45,6 +55,6 @@
             "name": "plot305.png"
         }
     ],
-    "updated_at": "2018-10-04 17:38:43",
+    "updated_at": "2018-10-04 17:39:11",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
