@@ -12,7 +12,7 @@ readStates <- function(states)
     num.row <- nrow(states)
     states <- states[-num.row,]
     
-    #remove the first for columns
+    #remove the first four columns
     states <- states[,1:4]
     
     #change names for remaining columns
