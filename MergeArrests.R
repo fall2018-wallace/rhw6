@@ -1,2 +1,2 @@
 
-hist(df)
+h<-hist(df)
