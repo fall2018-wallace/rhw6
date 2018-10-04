@@ -17,6 +17,7 @@ readStates<- function(states)
     #change names for remaining columns
     colnames(states)<-c("stateName","population","popOver18","percentOver18")
     
+    #return the results
     return(states)
     
 }
