@@ -15,11 +15,6 @@
             "target": "clean.R"
         },
         {
-            "ports": [],
-            "source": "MergeArrests.R",
-            "target": "data.csv"
-        },
-        {
             "ports": [
                 {
                     "input": "df",
@@ -41,13 +36,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
-        },
-        {
+            "assigned_to": "parshva11shah",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:34:35",
+    "updated_at": "2018-10-04 17:38:33",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
