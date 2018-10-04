@@ -15,20 +15,20 @@
             "target": "clean.R"
         },
         {
+            "ports": [],
+            "source": "MergeArrests.R",
+            "target": "data.csv"
+        },
+        {
             "ports": [
                 {
                     "input": "df",
-                    "output": "clean_data",
+                    "output": "cleanCensus",
                     "type": "r_obj"
                 }
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
-        },
-        {
-            "ports": [],
-            "source": "MergeArrests.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
@@ -48,6 +48,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:11:55",
+    "updated_at": "2018-10-04 17:32:36",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
