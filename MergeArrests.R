@@ -1,4 +1,5 @@
 
+dfStatesNew<-cleanCensus
 #Merging both data sets
 DataSetMerged<-merge(dfStatesNew,arrests)
 View(DataSetMerged)
