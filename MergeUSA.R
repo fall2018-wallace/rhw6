@@ -9,18 +9,18 @@ DataSetMerged<-merge(dfStatesNew,arrests)
 
 
 #Generating histograms of the columns specified
-ggplot(data=DataSetMerged, aes(population)) + geom_histogram(binwidth = 200)
-ggplot(data=DataSetMerged, aes(Murder)) + geom_histogram(binwidth = 200)
-ggplot(data=DataSetMerged, aes(Assault)) + geom_histogram(binwidth = 200)
-ggplot(data=DataSetMerged, aes(UrbanPop)) + geom_histogram(binwidth = 200)
-ggplot(data=DataSetMerged, aes(Rape)) + geom_histogram(binwidth = 200)
+a1<-ggplot(data=DataSetMerged, aes(population)) + geom_histogram(binwidth = 200)
+a2<-ggplot(data=DataSetMerged, aes(Murder)) + geom_histogram(binwidth = 200)
+a3<-ggplot(data=DataSetMerged, aes(Assault)) + geom_histogram(binwidth = 200)
+a4<-ggplot(data=DataSetMerged, aes(UrbanPop)) + geom_histogram(binwidth = 200)
+a5<-ggplot(data=DataSetMerged, aes(Rape)) + geom_histogram(binwidth = 200)
 
 #Q5
 
 #Generating the boxplot of columns specified
-ggplot(data=DataSetMerged, aes("population in million",population)) + geom_boxplot()
+a6<-ggplot(data=DataSetMerged, aes("population in million",population)) + geom_boxplot()
 
-ggplot(data=DataSetMerged, aes("murder in million",Murder)) + geom_boxplot()
+a7<-ggplot(data=DataSetMerged, aes("murder in million",Murder)) + geom_boxplot()
 
 
 
@@ -28,7 +28,7 @@ ggplot(data=DataSetMerged, aes("murder in million",Murder)) + geom_boxplot()
 
 #Histogram is better because shows the whole data with frequency
 counts <- table(DataSetMerged$Murder)
-barplot(counts, main="Murders per State", 
+a8<-barplot(counts, main="Murders per State", 
         xlab="State", ylab="Murder")
 
 
@@ -42,7 +42,7 @@ DataSetMerged$MurderperState <- (DataSetMerged$Murder * DataSetMerged$population
 #Q8
 
 # bar chart with the number of murders per state
-ggplot(data=DataSetMerged, aes(stateName,MurderperState)) + geom_col()
+a9<-ggplot(data=DataSetMerged, aes(stateName,MurderperState)) + geom_col()
 
 #Q9
 
