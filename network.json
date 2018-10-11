@@ -114,6 +114,16 @@
             ],
             "source": "MergeUSA.R",
             "target": "a9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "w1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "w1.png"
         }
     ],
     "nodes": [
@@ -172,6 +182,6 @@
             "name": "w4.png"
         }
     ],
-    "updated_at": "2018-10-11 20:14:59",
+    "updated_at": "2018-10-11 20:15:10",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
