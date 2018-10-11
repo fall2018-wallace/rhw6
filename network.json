@@ -46,16 +46,16 @@
         {
             "assigned_to": "parshva11shah",
             "desc": "",
-            "name": "MergeUSA.R",
+            "name": "clean.R",
             "task_status": "in progress"
         },
         {
             "assigned_to": "parshva11shah",
             "desc": "",
-            "name": "clean.R",
+            "name": "MergeUSA.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 19:16:27",
+    "updated_at": "2018-10-11 19:27:00",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
