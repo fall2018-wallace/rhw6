@@ -1,7 +1,8 @@
 
+dsStatesNew
 #Merging both data sets
 DataSetMerged<-merge(dfStatesNew,arrests)
-View(DataSetMerged)
+
 
 #Generating histograms of the columns specified
 ggplot(data=DataSetMerged, aes(population)) + geom_histogram()
@@ -32,7 +33,7 @@ barplot(counts, main="Murders per State",
 
 #The number of murders per state
 DataSetMerged$MurderperState <- (DataSetMerged$Murder * DataSetMerged$population)/100000
-View(DataSetMerged)
+
 
 #Q8
 
