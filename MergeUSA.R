@@ -9,11 +9,11 @@ DataSetMerged<-merge(dfStatesNew,arrests)
 
 
 #Generating histograms of the columns specified
-ggplot(data=DataSetMerged, aes(population)) + geom_histogram()
-ggplot(data=DataSetMerged, aes(Murder)) + geom_histogram()
-ggplot(data=DataSetMerged, aes(Assault)) + geom_histogram()
-ggplot(data=DataSetMerged, aes(UrbanPop)) + geom_histogram()
-ggplot(data=DataSetMerged, aes(Rape)) + geom_histogram()
+ggplot(data=DataSetMerged, aes(population)) + geom_histogram(binwidth = 0.01)
+ggplot(data=DataSetMerged, aes(Murder)) + geom_histogram(binwidth = 0.01)
+ggplot(data=DataSetMerged, aes(Assault)) + geom_histogram(binwidth = 0.01)
+ggplot(data=DataSetMerged, aes(UrbanPop)) + geom_histogram(binwidth = 0.01)
+ggplot(data=DataSetMerged, aes(Rape)) + geom_histogram(binwidth = 0.01)
 
 #Q5
 
