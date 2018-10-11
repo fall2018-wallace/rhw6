@@ -1,7 +1,7 @@
 
 dfStatesNew
 
-arrests<-raw_data
+
 #Merging both data sets
 DataSetMerged<-merge(dfStatesNew,arrests)
 
