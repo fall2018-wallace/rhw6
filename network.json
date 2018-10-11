@@ -41,8 +41,11 @@
             "desc": "",
             "name": "MergeUSA.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "a1.png"
         }
     ],
-    "updated_at": "2018-10-11 19:56:16",
+    "updated_at": "2018-10-11 20:06:25",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
