@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "output": "h",
-                    "type": "png"
-                }
-            ],
-            "source": "MergeUSA.R",
-            "target": "plot305.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "dfStatesNew",
                     "output": "c",
                     "type": "r_obj"
@@ -41,9 +31,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "plot305.png"
-        },
-        {
             "assigned_to": "parshva11shah",
             "desc": "",
             "name": "clean.R",
@@ -56,6 +43,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 19:29:02",
+    "updated_at": "2018-10-11 19:56:16",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
