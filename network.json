@@ -17,23 +17,23 @@
         {
             "ports": [
                 {
-                    "input": "df",
-                    "output": "cleanCensus",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "MergeUSA.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "h",
                     "type": "png"
                 }
             ],
             "source": "MergeUSA.R",
             "target": "plot305.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStatesNew",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeUSA.R"
         }
     ],
     "nodes": [
@@ -56,6 +56,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 19:11:22",
+    "updated_at": "2018-10-11 19:12:07",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
