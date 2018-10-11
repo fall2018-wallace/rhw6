@@ -161,8 +161,11 @@
         },
         {
             "name": "w1.png"
+        },
+        {
+            "name": "w2.png"
         }
     ],
-    "updated_at": "2018-10-11 20:14:42",
+    "updated_at": "2018-10-11 20:14:48",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
