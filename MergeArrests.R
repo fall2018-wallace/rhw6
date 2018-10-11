@@ -1,4 +1,8 @@
 
+#Merging both data sets
+DataSetMerged<-merge(dfStatesNew,arrests)
+View(DataSetMerged)
+
 #Generating histograms of the columns specified
 ggplot(data=DataSetMerged, aes(population)) + geom_histogram()
 ggplot(data=DataSetMerged, aes(Murder)) + geom_histogram()
