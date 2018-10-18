@@ -212,10 +212,12 @@
             "name": "w4.png"
         },
         {
+            "assigned_to": "parshva11shah",
             "desc": "",
-            "name": "hw7.R"
+            "name": "hw7.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-18 01:53:10",
+    "updated_at": "2018-10-18 01:53:19",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
