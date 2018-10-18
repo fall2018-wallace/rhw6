@@ -1,12 +1,8 @@
 
-library(ggplot2)
-
-
-library(ggmap)
 
 #Merged dataframe with the attributes from both dataset:mergeDF
 
-DataSetMerged <- merge(states, arrests, by ="statename")
+DataSetMerged <- merge(dfStatesNew, arrests, by ="statename")
 View(DataSetMerged)
 
 #Describe DataSetMerged
@@ -27,7 +23,10 @@ merge_data <- merge(DataSetMerged,mergeDf, by = "statename")
 View(merge_data)
 
 
+library(ggplot2)
 
+
+library(ggmap)
 
 us <- map_data("state")
 View(us)
