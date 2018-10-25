@@ -17,23 +17,143 @@
         {
             "ports": [
                 {
-                    "input": "df",
-                    "output": "cleanCensus",
+                    "input": "dfStatesNew",
+                    "output": "c",
                     "type": "r_obj"
                 }
             ],
             "source": "clean.R",
-            "target": "MergeArrests.R"
+            "target": "MergeUSA.R"
         },
         {
             "ports": [
                 {
-                    "output": "h",
+                    "output": "a1",
                     "type": "png"
                 }
             ],
-            "source": "MergeArrests.R",
-            "target": "plot305.png"
+            "source": "MergeUSA.R",
+            "target": "a1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a3",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a4",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a5",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a6",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a6.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a7",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a7.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a8",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a8.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a9",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "a9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "w1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "w1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "w2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "w2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "w3",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "w3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "w4",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeUSA.R",
+            "target": "w4.png"
         }
     ],
     "nodes": [
@@ -42,19 +162,56 @@
         },
         {
             "assigned_to": "parshva11shah",
+            "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
         },
         {
             "assigned_to": "parshva11shah",
             "desc": "",
-            "name": "MergeArrests.R",
+            "name": "MergeUSA.R",
             "task_status": "in progress"
         },
         {
-            "name": "plot305.png"
+            "name": "a1.png"
+        },
+        {
+            "name": "a2.png"
+        },
+        {
+            "name": "a3.png"
+        },
+        {
+            "name": "a4.png"
+        },
+        {
+            "name": "a5.png"
+        },
+        {
+            "name": "a6.png"
+        },
+        {
+            "name": "a7.png"
+        },
+        {
+            "name": "a8.png"
+        },
+        {
+            "name": "a9.png"
+        },
+        {
+            "name": "w1.png"
+        },
+        {
+            "name": "w2.png"
+        },
+        {
+            "name": "w3.png"
+        },
+        {
+            "name": "w4.png"
         }
     ],
-    "updated_at": "2018-10-04 17:40:21",
+    "updated_at": "2018-10-18 02:15:50",
     "url": "https://github.com/fall2018-wallace/rhw6"
 }
